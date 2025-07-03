@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Record Management System
 
 ## 📌 Description
@@ -22,9 +23,8 @@ Tkinter-based student database app to store, update, search, and delete student 
 ## 👥 Contributors
 - Member 1: Login module
 - Member 2: Dashboard Add/Edit
-- Member 3: Search/Delete
-- Member 4: SQLite Setup
-- Member 5: GitHub, README, Reports
+- Member 3: SQLite Setup
+-
 
 ## 🗃️ Backend
 SQLite used for storing records locally.
@@ -34,3 +34,6 @@ SQLite used for storing records locally.
 python db_setup.py
 python main.py
 ```
+=======
+# student-record-system
+>>>>>>> 0fff24bfce0fe990b51bf8d12f7b2ab5a090a992
