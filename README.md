@@ -27,7 +27,7 @@ Tkinter-based student database app to store, update, search, and delete student 
 <img width="693" alt="6" src="https://github.com/user-attachments/assets/ab460044-b1ae-4a78-a747-76c131cbf5e9" />
 
 ## 👥 Contributors
-- Misha Talib: Dashboard Add/Edit
+- Misha Talib:student-app/ Dashboard Add/Edit
 - Lubaba Fatima: SQLite Setup
 - Aroj Eman: Login module
 
