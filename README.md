@@ -21,7 +21,8 @@ Tkinter-based student database app to store, update, search, and delete student 
 <img width="224" alt="1" src="https://github.com/user-attachments/assets/2d49bca2-9ce0-459d-aad0-5977bc3c5a0a" />
 <img width="330" alt="2" src="https://github.com/user-attachments/assets/e0f2a5d5-1546-40c9-8fa8-efd41e4916e2" />
 <img width="346" alt="3" src="https://github.com/user-attachments/assets/a4938403-f126-41bd-a026-9625e19be724" />
-![Screenshot 2025-07-04 160514](https://github.com/user-attachments/assets/cdc53101-d522-4be0-b54f-e428565b2fee)
+<img width="641" alt="8" src="https://github.com/user-attachments/assets/b8de0f26-f851-4259-82e8-844062cb0405" />
+
 <img width="627" alt="5" src="https://github.com/user-attachments/assets/e0768b12-c069-4778-82e1-99c680b805a0" />
 <img width="693" alt="6" src="https://github.com/user-attachments/assets/ab460044-b1ae-4a78-a747-76c131cbf5e9" />
 
