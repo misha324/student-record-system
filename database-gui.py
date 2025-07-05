@@ -7,13 +7,16 @@ from tkinter import ttk, messagebox, filedialog
 conn = sqlite3.connect('students.db')
 c = conn.cursor()
 
+# Create users table
 c.execute('''
 CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     username TEXT NOT NULL UNIQUE,
     password TEXT NOT NULL
-)''')
+)
+''')
 
+# Create students table
 c.execute('''
 CREATE TABLE IF NOT EXISTS students (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -23,7 +26,8 @@ CREATE TABLE IF NOT EXISTS students (
     email TEXT,
     contact TEXT,
     gender TEXT
-)''')
+)
+''')
 
 # --- FUNCTIONS ---
 def insert_data():
@@ -87,7 +91,7 @@ def update_record():
         UPDATE students SET roll_no=?, name=?, age=?, email=?, contact=?, gender=?
         WHERE id=?
     """, (
-        entry_roll.get(), entry_name.get(), entry_age.get(), 
+        entry_roll.get(), entry_name.get(), entry_age.get(),
         entry_email.get(), entry_contact.get(), gender_var.get(), student_id
     ))
     conn.commit()
@@ -188,7 +192,8 @@ def show_signup():
 
 # --- MAIN APP ---
 def open_main_app():
-    global root, entry_roll, entry_name, entry_age, entry_email, entry_contact, gender_var, update_btn, delete_btn, save_btn, tree
+    global root, entry_roll, entry_name, entry_age, entry_email, entry_contact, gender_var
+    global update_btn, delete_btn, save_btn, tree
 
     root = Tk()
     root.title("Student Record System")
@@ -255,6 +260,6 @@ def open_main_app():
     view_records()
     root.mainloop()
 
-# --- START ---
+# --- START APP ---
 show_login()
 conn.close()
