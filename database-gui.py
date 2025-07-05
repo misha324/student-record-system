@@ -4,12 +4,12 @@ from tkinter import *
 from tkinter import ttk, messagebox, filedialog
 
 # --- DATABASE SETUP ---
-conn = sqlite3.connect('students.db')
+conn = sqlite3.connect("students.db")
 c = conn.cursor()
 
 # Create users table
 c.execute('''
-CREATE TABLE IF NOT EXISTS users (
+CREATE TABLE IF NOT EXISTS user (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     username TEXT NOT NULL UNIQUE,
     password TEXT NOT NULL
