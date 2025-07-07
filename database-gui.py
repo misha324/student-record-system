@@ -130,7 +130,7 @@ def show_login():
     def check_login():
         username = username_entry.get()
         password = password_entry.get()
-        c.execute("SELECT * FROM users WHERE username=? AND password=?", (username, password))
+        c.execute("SELECT * FROM user WHERE username=? AND password=?", (username, password))
         result = c.fetchone()
         if result:
             login_window.destroy()
